@@ -75,6 +75,40 @@ border-bottom:#28a745 2px solid;
     color:#fff;
 }
 
+.hero .content{/**/
+display:flex;/*puts P tag next to h1 tag instead of under it*/
+flex-direction: column;/*changes direction from default of display:flex; which is flex-direction:row; to flex-direction:column;*/
+align-items: center;
+justify-content: center;
+text-align: center;/*text is aligned on the cross axis(x-axis) "Horizontally" side to side*/
+height:100%;/*since the vh of the header is 100 viewport height i can put it as 100% of its container*/
+/*usually justify-content:center would put it directly in the middle but it is not doing that because there is no "height"*/
+padding:0 20px;
+}
+
+.hero .content h1{
+    font-size:55px;/*size of h1*/
+}
+
+.hero .content p{
+    font-size:23px;
+    max-width:600px;/*do not want to extend paragraph out*/
+    margin:20px 0 30px;
+}
+
+.hero::before{/*Allows us to insert content"before" this element*/
+content:'';
+position:absolute;
+top:0;/*The top CSS property participates in specifying the vertical position of a positioned element*/
+left:0;/*The left CSS property participates in specifying the horizontal position of a positioned element.*/
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);/*overlay (this is another option if i dont want to use opacity*/
+}
+    
+
+
+
 
 
 

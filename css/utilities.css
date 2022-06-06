@@ -7,3 +7,34 @@
 .text-secondary{
     color:#0284d0;
 }
+
+/* Button */
+
+.btn{
+    cursor:pointer;
+    display:inline-block;/*By default the display is inline*/
+    padding:10px 30px;/*10px top and bottom 30px left and right*//*inside an element*/
+    color:#fff;
+    background-color:#28a745;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+opacity:0.9;/*makes button see-through when you "hover" over it*/
+transition: 300ms all ease;
+}
+
+.btn-secondary{
+    background:#0284d0;/*samething as line 18*/
+    color:#fff;
+}
+.btn-dark{
+    background:#333;
+    color:#fff;
+}
+.btn-light{
+    background:#f4f4f4;
+    color:#333;
+}
+
