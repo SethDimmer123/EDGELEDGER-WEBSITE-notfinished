@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family:'open Sans',sans-serif;
+    font-family:'Open Sans',sans-serif;
     background: #fff;
     color:#333;
     line-height:1.6;
@@ -41,7 +41,7 @@ background-color:#333;/*changes background-color of navbar*/
 color:white;
 opacity:0.8;/*Makes navbar see-through*/
 position: fixed;
-top:0;
+top:0px;
 height:70px;/*pretty common height for a navbar*/
 padding:0 30px;/*the "0" is top and bottom the "30px" is left and right*/
 left:0;/*stretches navbar left*/
@@ -51,7 +51,7 @@ left:0;/*stretches navbar left*/
 .navbar a{
 color:#fff;/*Changes color of text*/
 padding:10px 20px;/*10px is top and bottom and 20px is left and right*/
-margin:5px;
+margin: 0 5px;
 }
 
 .navbar a:hover{
@@ -65,6 +65,16 @@ border-bottom:#28a745 2px solid;
 .navbar .logo{
     font-weight: 400;/*"Edgeledger (word)" font size*/
 }
+
+/* Header */
+
+.hero{
+    background:url('../image_resources/home/showcase.jpg') no-repeat center center/cover;
+    height:100vh;/*how big of the image goes (vertically)*/
+    position:relative;/*position that is relative to its normal position*/
+    color:#fff;
+}
+
 
 
 
