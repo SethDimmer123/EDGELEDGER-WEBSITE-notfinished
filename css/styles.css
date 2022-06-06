@@ -6,6 +6,23 @@
     padding:0;
 }
 
-#home{
-    color:red;
+body{
+    font-family:'open Sans',sans-serif;
+    background: #fff;
+    color:#333;
+    line-height:1.6;
 }
+
+ul{
+    list-style-type: none;/*removes bullet points*/
+}
+
+a{
+    color:#333;/*changes color of text*/
+    text-decoration: none;/*removes underline under the navbar links*/
+}
+
+h1,h2{
+    font-weight:300;
+}
+
