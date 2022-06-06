@@ -31,5 +31,42 @@ p{
     margin: 10px 0;/*moves the paragraph "We provide world class financial assistance down a bit"(10px) (0) is left and right*/
 }
 
+/* Navbar */
+
+.navbar{ /* Since it is a class i use "." instead of "#" */
+display:flex;
+align-items: center;
+justify-content: space-between;/*You want the h1 to be on one side and the (ul links to be on the other side)*/
+background-color:#333;/*changes background-color of navbar*/
+color:white;
+opacity:0.8;/*Makes navbar see-through*/
+position: fixed;
+top:0;
+height:70px;/*pretty common height for a navbar*/
+padding:0 30px;/*the "0" is top and bottom the "30px" is left and right*/
+left:0;/*stretches navbar left*/
+ right:0;/*stretches navbar right */
+}
+
+.navbar a{
+color:#fff;/*Changes color of text*/
+padding:10px 20px;/*10px is top and bottom and 20px is left and right*/
+margin:5px;
+}
+
+.navbar a:hover{
+border-bottom:#28a745 2px solid;
+}
+
+.navbar ul{
+    display:flex;/*puts the links from on top of eachother to side by side*/
+}
+
+.navbar .logo{
+    font-weight: 400;/*"Edgeledger (word)" font size*/
+}
+
+
+
 
 
