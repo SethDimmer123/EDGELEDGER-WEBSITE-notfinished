@@ -109,6 +109,20 @@ background:rgba(0,0,0,0.6);/*overlay (this is another option if i dont want to u
 .hero *{
     z-index:10;/*Makes"sky is the limit brighter since it is no longer behind the image"*/
 }
+
+/*ICONS*/
+.icons{
+    padding:30px;
+}
+
+.icons h3{
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.icons i{
+    background-color: #28a745;
+}
     
 
 
